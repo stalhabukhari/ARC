@@ -154,5 +154,5 @@ if __name__ == '__main__':
     assert len(sys.argv) == 3
 
     load_path = sys.argv[1]
-    save_path = sys.argv[1]
+    save_path = sys.argv[2]
     preprocess(load_path, save_path)
